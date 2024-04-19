@@ -11,27 +11,36 @@ const About = () => {
             ABOUT ME
           </h1>
           <h2 className="text-[25px] md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white">
-            Transforming <span className="text-yellow-400">Visions</span>
+            Exceptional <span className="text-yellow-400">Skills</span>
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%]">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa,
-              cupiditate itaque provident dolore inventore suscipit optio vel
-              doloribus consequuntur nesciunt rem earum.
+              I excel in both front-end and back-end development, ensuring a
+              seamless user experience across all platforms. My dedication to
+              staying current with the latest advancements allows me to deliver
+              innovative solutions for your projects. Ready to craft your next
+              groundbreaking app? Let&apos;s discuss your vision!
             </p>
           </div>
-          <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
-            <p> Download Cv</p>
-            <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-          </button>
+          <a
+            href="https://utfs.io/f/8ae9b3f2-0710-4b42-9f50-fcdcc99ef5d5-vrgp0d.pdf"
+            download="Junjie Yang's Resume"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
+              <p>Resume</p>
+              <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
+            </button>
+          </a>
         </div>
         <div
           data-aos="fade-left"
           className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative"
         >
           <Image
-            src="/images/about.jpg"
+            src="/images/me-avatar.jpg"
             alt="user"
             layout="fill"
             objectFit="contain"

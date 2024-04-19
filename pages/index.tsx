@@ -11,6 +11,7 @@ import Testimonial from "@/Components/Testimonial";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import Head from "next/head";
 
 // DEPLOYMENT
 
@@ -47,16 +48,30 @@ const HomePage = () => {
 
   return (
     <div className="overflow-x-hidden">
+      <Head>
+        <title>Junjie Yang Dev Portfolio</title>
+      </Head>
       <div>
+        {/* <section id="Home"> */}
         <MobileNav nav={nav} closeNav={closeNav} />
         <Nav openNav={openNav} />
+
         <Hero />
+        {/* </section> */}
         <div className="relative z-[30]">
-          <About />
-          <Services />
-          <Skils />
+          <section id="About">
+            <About />
+          </section>
+
+          <section id="Services">
+            <Services />
+          </section>
+          <section id="Skills">
+            <Skils />
+          </section>
+
           <Projects />
-          <Testimonial />
+          {/* <Testimonial /> */}
           <Blog />
           <Footer />
         </div>
