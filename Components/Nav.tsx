@@ -22,12 +22,22 @@ const Nav = ({ openNav }: Props) => {
         <div className="nav-link">
           <a href="#Services">SERVICES</a>
         </div>
+        <div className="nav-link">
+          <a href="#History">HISTORY</a>
+        </div>
 
-        <div className="nav-link">PROJECT</div>
-        <div className="nav-link">BLOG</div>
-        <div className="nav-link">CONTACT</div>
+        <div className="nav-link">
+          <a href="#Projects">PROJECTS</a>
+        </div>
+        <div className="nav-link">
+          {" "}
+          <a href="#Videos">VIDEOS</a>
+        </div>
+        <div className="nav-link">
+          <a href="#Contact">CONTACT</a>
+        </div>
         <div onClick={openNav}>
-          <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300" />
+          <Bars3Icon className="w-[2rem] lg:hidden h-[2rem] cursor-pointer text-yellow-300" />
         </div>
       </div>
     </div>

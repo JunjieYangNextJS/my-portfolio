@@ -4,41 +4,112 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem]">
-      <h1 className="heading">
-        Pro<span className="text-yellow-400">Ject</span>
+      <h1 className="heading pb-[2rem]">
+        Pro<span className="text-yellow-400">Jects</span>
       </h1>
-      <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] ">
+      <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1  lg:grid-cols-3 gap-[2rem] ">
         <div data-aos="fade-up">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p1.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
+          <a
+            href="https://www.priders.net"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+              <Image
+                src="https://utfs.io/f/698c69e2-1579-49b3-be84-f71ac3efee99-x73fd5.jpg"
+                alt="priders"
+                layout="fill"
+                style={{
+                  width: "100%",
+                  aspectRatio:
+                    16 / 9 /* Adjust as needed based on image aspect ratio */,
+                  overflow:
+                    "hidden" /* Hide any overflowing parts of the image */,
+                }}
+              />
+            </div>
+          </a>
+
+          <div>
+            <p className=" text-white pt-5">
+              This social media app is built with industry standard technologies
+              featuring React, Nodejs, Express, Mongodb, Amazon S3, react-redux,
+              RTK query, websockets, JWT authentication flow, REST apis, etc.
+              Mobile version is currently running in closed-testing on Android.
+              If you are interested to join our closed testing group, please
+              send us your email address associated with your Android phone.
+              Your email will only be used for closed testing communication.
+            </p>
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="300">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p2.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
+          <a
+            href="https://cheap-and-yummy.vercel.app"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+              <Image
+                src="https://utfs.io/f/33955721-32b1-4ecc-8f31-f9b417b8a50c-d24iqk.jpg"
+                alt="foodFinder"
+                // height={400}
+                // width={400}
+                layout="fill"
+                style={{
+                  width: "100%",
+                  aspectRatio:
+                    16 / 9 /* Adjust as needed based on image aspect ratio */,
+                  overflow:
+                    "hidden" /* Hide any overflowing parts of the image */,
+                }}
+
+                // className="overflow:hidden"
+              />
+            </div>
+          </a>
+
+          <div>
+            <p className=" text-white pt-5">
+              This app utilizes data from Yelp Fusion API and Google Map API. It
+              is built with the newest technologies featuring Nextjs 13 App
+              router, Typescript, Zustand, TailwindCSS, react-query, etc.
+            </p>
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="600">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p3.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
+          <a
+            href="https://junjie-yang-e-commerce-project-60mk4jf6m-junjieyangnextjs.vercel.app"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+              <Image
+                src="https://utfs.io/f/a20e1beb-6c3a-4938-babe-25a9b1688586-le3xoj.jpg"
+                alt="e-commerce"
+                // height={400}
+                // width={400}
+                layout="fill"
+                // className="object-contain"
+                style={{
+                  width: "100%",
+                  aspectRatio:
+                    16 / 9 /* Adjust as needed based on image aspect ratio */,
+                  overflow:
+                    "hidden" /* Hide any overflowing parts of the image */,
+                }}
+              />
+            </div>
+          </a>
+
+          <div>
+            <p className=" text-white pt-5">
+              This app is built with modern technologies featuring Nextjs page
+              router, Typescript, Next-Auth, Firebase, Session authentication
+              flow, styled-components, react-redux, etc.
+            </p>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-delay="900">
+        {/* <div data-aos="fade-up" data-aos-delay="900">
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
               src="/images/p4.jpg"
@@ -67,7 +138,7 @@ const Projects = () => {
               className="object-contain"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

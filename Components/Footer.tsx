@@ -18,7 +18,7 @@ const Footer = () => {
               Address
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
-              Lorem, ipsum dolor sit
+              13730 Ranch Rd 620N, Austin, TX
             </p>
           </div>
         </div>
@@ -31,8 +31,7 @@ const Footer = () => {
               Phone
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
-              +0938459060 <br />
-              +9035893485
+              (+1)9259534081
             </p>
           </div>
         </div>
@@ -42,18 +41,17 @@ const Footer = () => {
           </div>
           <div>
             <h1 className="text-[25px] mb-[0.2rem] font-semibold text-[white] ">
-              Send Us Email
+              Send Me Email
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
-              example.com <br />
-              example@example.com
+              jjyusa2010@gmail.com
             </p>
           </div>
         </div>
       </div>
       <div className="w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between ">
         <div className="text-[16px] mb-[2rem] md:mb-0 text-white opacity-20">
-          Webdev warriors 2023 | All Rights Reserved
+          Junjie Yang 2024
         </div>
         <div className="flex items-center space-x-10">
           <p className="text-[16px] text-white opacity-20">Terms & Condition</p>

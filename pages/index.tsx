@@ -66,14 +66,21 @@ const HomePage = () => {
           <section id="Services">
             <Services />
           </section>
-          <section id="Skills">
+          <section id="History">
             <Skils />
           </section>
+          <section id="Projects">
+            <Projects />
+          </section>
 
-          <Projects />
           {/* <Testimonial /> */}
-          <Blog />
-          <Footer />
+          <section id="Videos">
+            <Blog />
+          </section>
+
+          <section id="Contact">
+            <Footer />
+          </section>
         </div>
       </div>
     </div>
