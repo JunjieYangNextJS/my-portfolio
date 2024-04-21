@@ -7,7 +7,6 @@ import Nav from "@/Components/Nav";
 import Projects from "@/Components/Projects";
 import Services from "@/Components/Services";
 import Skils from "@/Components/Skils";
-import Testimonial from "@/Components/Testimonial";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles

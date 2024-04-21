@@ -16,7 +16,7 @@ const Projects = () => {
           >
             <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
               <Image
-                src="https://utfs.io/f/698c69e2-1579-49b3-be84-f71ac3efee99-x73fd5.jpg"
+                src="/images/socialMedia.jpg"
                 alt="priders"
                 layout="fill"
                 style={{
@@ -50,7 +50,7 @@ const Projects = () => {
           >
             <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
               <Image
-                src="https://utfs.io/f/33955721-32b1-4ecc-8f31-f9b417b8a50c-d24iqk.jpg"
+                src="/images/foodFinder.jpg"
                 alt="foodFinder"
                 // height={400}
                 // width={400}
@@ -84,7 +84,7 @@ const Projects = () => {
           >
             <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
               <Image
-                src="https://utfs.io/f/a20e1beb-6c3a-4938-babe-25a9b1688586-le3xoj.jpg"
+                src="/images/e-commerce.jpg"
                 alt="e-commerce"
                 // height={400}
                 // width={400}
@@ -109,36 +109,6 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        {/* <div data-aos="fade-up" data-aos-delay="900">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p4.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="1200">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p5.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="1600">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p1.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
-        </div> */}
       </div>
     </div>
   );
