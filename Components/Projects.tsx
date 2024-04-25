@@ -34,11 +34,44 @@ const Projects = () => {
             <p className=" text-white pt-5">
               This social media app is built with industry standard technologies
               featuring React, Nodejs, Express, Mongodb, Amazon S3, react-query,
-              websockets, JWT authentication flow, REST apis, etc. Mobile
+              websockets, JWT authentication flow, REST APIs, etc. Mobile
               version is currently running in closed-testing on Android. If you
               are interested to join our closed testing group, please send us
               your email address associated with your Android phone. Your email
               will only be used for closed testing communication.
+            </p>
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="600">
+          <a
+            href="https://yang-jewelry.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+              <Image
+                src="/images/e-commerce.jpg"
+                alt="e-commerce"
+                // height={400}
+                // width={400}
+                layout="fill"
+                // className="object-contain"
+                style={{
+                  width: "100%",
+                  aspectRatio:
+                    16 / 9 /* Adjust as needed based on image aspect ratio */,
+                  overflow:
+                    "hidden" /* Hide any overflowing parts of the image */,
+                }}
+              />
+            </div>
+          </a>
+
+          <div>
+            <p className=" text-white pt-5">
+              This e-commerce app is built with modern technologies featuring
+              React, Nodejs, Express, Mongodb, Cloudinary, React-redux,
+              contextAPI, TailwindCSS, JWT authentication flow, REST APIs etc.
             </p>
           </div>
         </div>
@@ -70,42 +103,9 @@ const Projects = () => {
 
           <div>
             <p className=" text-white pt-5">
-              This app utilizes data from Yelp Fusion API and Google Map API. It
-              is built with the newest technologies featuring Nextjs 13 App
-              router, Typescript, Zustand, TailwindCSS, react-query, etc.
-            </p>
-          </div>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="600">
-          <a
-            href="https://yang-jewelry.vercel.app/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
-              <Image
-                src="/images/e-commerce.jpg"
-                alt="e-commerce"
-                // height={400}
-                // width={400}
-                layout="fill"
-                // className="object-contain"
-                style={{
-                  width: "100%",
-                  aspectRatio:
-                    16 / 9 /* Adjust as needed based on image aspect ratio */,
-                  overflow:
-                    "hidden" /* Hide any overflowing parts of the image */,
-                }}
-              />
-            </div>
-          </a>
-
-          <div>
-            <p className=" text-white pt-5">
-              This app is built with modern technologies featuring Nextjs page
-              router, Typescript, Next-Auth, Firebase, Session authentication
-              flow, styled-components, react-redux, etc.
+              This food finder app utilizes data from Yelp Fusion API and Google
+              Map API. It is built with the newest technologies featuring Nextjs
+              13 App router, Typescript, Zustand, TailwindCSS, react-query, etc.
             </p>
           </div>
         </div>
