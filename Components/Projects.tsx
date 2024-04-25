@@ -33,12 +33,12 @@ const Projects = () => {
           <div>
             <p className=" text-white pt-5">
               This social media app is built with industry standard technologies
-              featuring React, Nodejs, Express, Mongodb, Amazon S3, react-redux,
-              RTK query, websockets, JWT authentication flow, REST apis, etc.
-              Mobile version is currently running in closed-testing on Android.
-              If you are interested to join our closed testing group, please
-              send us your email address associated with your Android phone.
-              Your email will only be used for closed testing communication.
+              featuring React, Nodejs, Express, Mongodb, Amazon S3, react-query,
+              websockets, JWT authentication flow, REST apis, etc. Mobile
+              version is currently running in closed-testing on Android. If you
+              are interested to join our closed testing group, please send us
+              your email address associated with your Android phone. Your email
+              will only be used for closed testing communication.
             </p>
           </div>
         </div>
@@ -78,7 +78,7 @@ const Projects = () => {
         </div>
         <div data-aos="fade-up" data-aos-delay="600">
           <a
-            href="https://junjie-yang-e-commerce-project-60mk4jf6m-junjieyangnextjs.vercel.app"
+            href="https://yang-jewelry.vercel.app/"
             rel="noopener noreferrer"
             target="_blank"
           >
