@@ -24,7 +24,7 @@ const About = () => {
             </p>
           </div>
           <a
-            href="https://utfs.io/f/8ae9b3f2-0710-4b42-9f50-fcdcc99ef5d5-vrgp0d.pdf"
+            href="https://utfs.io/f/606977a8-b0b6-42f8-a0aa-233b675a4be9-q2k6uj.pdf"
             download="Junjie Yang's Resume"
             target="_blank"
             rel="noopener noreferrer"
